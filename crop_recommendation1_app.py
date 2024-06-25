@@ -5,7 +5,7 @@ import joblib
 from sklearn.svm import SVC
 
 # Load the pre-trained SVC model
-model = joblib.load("C:\\streamlit\\pipeline_model.pkl")
+model = joblib.load('C:/streamlit/pipeline_model.pkl')
 
 # Title and Description
 st.title("Crop Recommendation System")
