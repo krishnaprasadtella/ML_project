@@ -5,10 +5,10 @@ import joblib
 from sklearn.svm import SVC
 
 # Load the pre-trained SVC model
-model = joblib.load(r"C:\Users\Mahesh Kumar\Downloads\streamlit\pipeline_model.pkl")
+model = joblib.load("pipeline_model.pkl")
 
 # Title and Description
-st.title("Crop Recommendation System")
+st.title("Crop Recommendation")
 st.write("""
     This application recommends the best crop to plant based on the following inputs:
     Nitrogen, Phosphorus, Potassium, Temperature, Humidity, pH Value, and Rainfall.
